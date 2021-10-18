@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
+
+@font-face {
+    font-family: santio;
+    src: url('../fonts/Santio_regular.ttf')
+}
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive;
+#e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: santio;
+    font-size: 18px;
+
+}
+
+body{
+    background: url('../img/cleo-topper.jpg') no-repeat fixed center;
+}
+
+/* NAVIGATION */
+nav {
+    text-align: right;
+    padding: 15px 20px;
+}
+nav img{
+    width:20px
+}
+.navTitle {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    width: 10%;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: #e7bc0e ;
+    text-underline-offset: 5px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+header h1{
+    font-size: 78px;
+    width:30%;
+    margin: 15% 0 10% 10%;
+}
+
+header p{
+    padding: 0 0 15% 10%;
+    font-size: 78px;
+    color: #e7bc0e ;
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    letter-spacing: -3px;
+    display: inline-block;
+    width:40%;
+}
+
+.rotate{
+    transform: rotate(-90deg);
+    font-size: 120px;
+    color: #e7bc0e ;
+    font-family: 'Tangerine', cursive;
+    width:10%;
+}
