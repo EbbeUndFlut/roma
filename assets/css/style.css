@@ -126,6 +126,7 @@ main section:not(main section:first-child) {
 
 .kids{
     background: url('../img/see.png');
+    background-color: #fff;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     text-align:left;
