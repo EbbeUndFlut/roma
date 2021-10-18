@@ -127,7 +127,7 @@ main section:not(main section:first-child) {
 .kids{
     background: url('../img/see.png');
     background-color: #fff;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
     background-repeat: no-repeat;
     text-align:left;
 
@@ -135,6 +135,9 @@ main section:not(main section:first-child) {
 
 .kids img{
     width:100vw;
+    padding:0;
+    padding-top: 10px;
+    margin-bottom: -5px;
 }
 
 /* FOOTER */
@@ -158,7 +161,12 @@ footer > a{
     border: 2px solid #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
-    border-radius: 2px;7
+    border-radius: 2px;
+}
+
+footer > a:hover{
+    
+    box-shadow: 8px 8px #fff;;
 }
 
 footer a + p{
